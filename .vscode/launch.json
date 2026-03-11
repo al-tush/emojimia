@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Emojimia (Android)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--dart-define=HUME_API_KEY=${env:HUME_API_KEY}"
+      ]
+    },
+    {
+      "name": "Emojimia (Chrome/Web)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "args": [
+        "--dart-define=HUME_API_KEY=${env:HUME_API_KEY}"
+      ]
+    }
+  ]
+}
