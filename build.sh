@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-FLUTTER_VERSION="3.27.4"
+FLUTTER_VERSION="3.41.4"
 FLUTTER_DIR="$HOME/flutter"
 
 echo "→ Installing Flutter $FLUTTER_VERSION..."
